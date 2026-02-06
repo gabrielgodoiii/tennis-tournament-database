@@ -41,14 +41,14 @@ The database was developed focusing on:
 ```text
 tennis-tournament-database/
 │
+├── diagram/
+│   └── er_diagram.png
+|
 ├── sql/
 │   ├── 01_create_database.sql
 │   ├── 02_create_tables.sql
 │   ├── 03_inserts.sql
 │   └── 04_queries.sql
-│
-├── diagram/
-│   └── er_diagram.png
 │
 └── README.md
 ```
@@ -68,7 +68,7 @@ entities, attributes, primary keys, foreign keys, and relationships.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SEU_USUARIO/tennis-tournament-database.git
+   git clone https://github.com/gabrielgodoiii/tennis-tournament-database.git
    ```
    
 2. Open **MySQL Workbench** (or any MySQL-compatible database client).
@@ -106,4 +106,5 @@ O desenvolvimento priorizou boas práticas de modelagem de dados, normalização
 **Gabriel Godoi**  
 Estudante e entusiasta da área de Dados, com foco em análise, visualização e construção de dashboards interativos em Python.
 Projeto desenvolvido para fins educacionais e de portfólio.
+
 
